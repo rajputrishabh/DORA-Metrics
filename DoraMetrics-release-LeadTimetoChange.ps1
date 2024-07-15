@@ -1,12 +1,13 @@
 ﻿param
 (
-$org = "kantarware",
-$project="KT-RIO",
-$PAT = "6xjvxhif56xgy5cr2xrsroo2niuuvobfalghrcuimqlmdpglm7ia",
+$PAT = <Azure DevOps PAT token>,
+$org = "<Azure Devops Organisation name,
+$project = <Azure DevOps Project name>,
 # Replace with your Workspace ID
-$CustomerId = "1e8eb880-1f5b-477d-aa77-35c12a9183e1",   
+$CustomerId = <Azure LogAnalytics Workspace ID>,  
 # Replace with your Primary Key
-$SharedKey = "PKadb1uaovMMFLV2AJeyvvhxIY9KeORmsPhj98NylDHv5Wkj28FPM2DnHi56kGIX/DRbIrVA5pOPR29T5XOPLw==" ,    
+$SharedKey = <Azure LogAnalytics Primary Key> ,
+  
 # Specify the name of the record type that you'll be creating
 $LogType = "DoraMetricsLTCRelease",
 $noofday=543,
